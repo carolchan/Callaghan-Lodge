@@ -21,7 +21,7 @@ Template Name: testing
 get_header(); ?>
 
 		<div id="container">
-		<!--this is the Book Now template-->
+		<!--this is the testing testing template-->
 			<div id="content" role="main">
 			<?php
 			/* Run the loop to output the page.
