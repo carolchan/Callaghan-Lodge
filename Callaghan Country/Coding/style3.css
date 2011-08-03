@@ -1,0 +1,277 @@
+/* 
+Theme Name: Twenty Ten Child 
+Description: Child Theme for the Twenty Ten theme 
+Template: twentyten 
+Author: Carol Chan 
+Version: 0.1.0 
+*/
+
+@import url(../twentyten/style.css);
+
+body {
+background:#F5F4E4;
+font-family: calibri, helvetica, sans-serif;
+}
+
+#content {
+width: 700px;
+margin-right: 50px;
+}
+
+#branding img {
+display: none;
+}
+
+#container {
+float: right;
+}
+
+#primary {
+border: solid 1px red;
+float: left;
+}
+
+/*Main Nav*/
+#access, .menu-header, div.menu {
+background-color: #ffffff;
+font-family: helvetica, calibri, sans-serif;
+margin: 0;
+}
+
+#access a, #menu-item {
+background-color: #ffffff;
+color: #252525;
+font-size: 110%;
+border-right: 1px solid #acacac;
+padding-left: 16px;
+padding-right: 16px;
+margin: 0;
+}
+
+#access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
+background-color: #ffffff;
+color: #252525;
+}
+
+#menu-item-87 a {
+border-right: none;
+}
+
+#access ul li a:link {
+}
+
+#access ul li a:visit {
+}
+
+#access ul li a:hover {
+background-color: #ffffff;
+color: #5b8726;
+}
+
+#access ul li a:active {
+}
+
+/*Logo*/
+#site-title {
+color: white;
+font-size: 10%;
+width: 147px;
+line-height: 0;
+height: 118px;
+background: url(images/logo.png);
+}
+
+#site-title a {
+position: absolute;
+width: 147px;
+height: 118px;
+color: #ffffff;
+}
+
+#site-description {
+color: white;
+}
+
+/*Footer*/
+
+#colophon {
+border-top: 1px solid #acacac;
+margin: 0;
+}
+
+#site-info ul li {
+list-style: none;
+float: left;
+}
+
+#site-info a {
+font-family: helvetica, calibri, sans-serif;
+font-size: 80%;
+font-weight: normal;
+padding-left: 7px;
+padding-right: 7px;
+color: #252525;
+border-right: 1px solid #acacac;
+margin: 0;
+}
+
+#contact_footer a {
+border-right: none;
+}
+
+#site-info a:link {
+}
+
+#site-info a:visit {
+}
+
+#site-info a:hover {
+background-color: #ffffff;
+color: #5b8726;
+}
+
+#site-info a:active {
+}
+
+/*Header Weather*/
+#header {
+margin: 0;
+padding: 0;
+}
+
+#weather {
+margin-right: 32px;
+padding: 0;
+}
+
+#weather li {
+list-style: none;
+float: right;
+height: 30px;
+}
+
+#weather a, #weather p {
+font-family: helvetica, calibri, sans-serif;
+font-weight: normal;
+padding-left: 20px;
+padding-right: 20px;
+color: #252525;
+border-right: 1px solid #acacac;
+margin: 0;
+text-decoration: none;
+font-size: 110%;
+}
+
+#current-conditions a {
+border-right: none;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/snow.png) right top no-repeat;
+}
+
+#weather a:link {
+}
+
+#weather a:visit {
+}
+
+#weather a:hover {
+color: #5b8726;
+}
+
+#weather a:active {
+}
+
+/*Masthead Social Media*/
+#social-media {
+position: relative;
+margin-left: 643px;
+padding-top: 95px;
+}
+
+#newsletter {
+width: 140%;
+margin: 10px;
+padding-right: 48px;
+padding-top: 15px;
+background: url(images/newsletter.png) right top no-repeat;
+}
+
+#fb {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/fb.png) right top no-repeat;
+}
+
+#twitter {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/twitter.png) right top no-repeat;
+}
+
+#trip {
+margin: 10px;
+padding-right: 32px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/tripadvisor.png) right top no-repeat;
+}
+
+#flickr {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/flickr.png) right top no-repeat;
+}
+
+#yelp {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/yelp.png) right top no-repeat;
+}
+
+
+/*Webrez Widget*/
+element.style {
+font-family: calibri;
+font-size: 1.2em;
+padding: 5px;
+}
+
+form {
+position: relative;
+width: 23%;
+height: 310px;
+background: url(images/webrez_mini.png) no-repeat;
+margin: 10px 0 10px 0;
+clear: both;
+}
+
+form table {
+position: absolute;
+display: block;
+border-collapse: separate;
+border-spacing: 0px;
+margin-top: 63px;
+margin-left: 10px;
+}
+
+form tbody tr td {
+padding: 10px 5px;
+color: #ffffff;
+}
+
+/*#secondary {
+position: absolute;
+margin-top: -100px;
+border: solid 1px red;
+float: left;
+}*/

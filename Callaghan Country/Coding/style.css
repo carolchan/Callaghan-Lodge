@@ -1,0 +1,302 @@
+/* 
+Theme Name: Twenty Ten Child 
+Description: Child Theme for the Twenty Ten theme 
+Template: twentyten 
+Author: Carol Chan 
+Version: 0.1.0 
+*/
+
+@import url(../twentyten/style.css);
+
+body {
+background:#ffffff;
+font-family: calibri, helvetica, sans-serif;
+}
+
+#branding img {
+display: none;
+}
+
+#main {
+padding-top: 20px;
+}
+
+#content {/*align carousel and boxes*/
+width: 980px;
+margin: 0;
+}
+
+#shoe.size-full wp-image-293 alignnone {
+position: absolute;
+float: left;
+}
+
+#room.size-full wp-image-291 alignnone {
+float: right;
+position: absolute;
+float: right;
+}
+
+.xoxo {
+display: none;
+}
+
+.entry-title {
+display: none;
+}
+
+/*main nav*/
+#access, .menu-header, div.menu {
+background-color: #ffffff;
+font-family: helvetica, calibri, sans-serif;
+margin: 0;
+}
+
+#access a, #menu-item {
+background-color: #ffffff;
+color: #252525;
+font-size: 110%;
+border-right: 1px solid #acacac;
+padding-left: 16px;
+padding-right: 16px;
+margin: 0;
+}
+
+#access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
+background-color: #ffffff;
+color: #252525;
+}
+
+#menu-item-87 a {
+border-right: none;
+}
+
+#access ul li a:link {
+}
+
+#access ul li a:visit {
+}
+
+#access ul li a:hover {
+background-color: #ffffff;
+color: #5b8726;
+}
+
+#access ul li a:active {
+}
+
+/*logo*/
+#site-title {
+color: white;
+font-size: 10%;
+width: 147px;
+height: 118px;
+background: url(images/logo.png) no-repeat;
+}
+
+#site-title a {
+position: absolute;
+width: 147px;
+height: 118px;
+color: #ffffff;
+}
+
+#site-description {
+color: white;
+}
+
+/*Footer*/
+
+#colophon {
+border-top: 1px solid #acacac;
+margin: 0;
+}
+
+#site-info ul li {
+list-style: none;
+margin: 0;
+}
+
+#site-info a {
+font-family: helvetica, calibri, sans-serif;
+font-size: 80%;
+font-weight: normal;
+padding-left: 7px;
+padding-right: 7px;
+color: #252525;
+border-right: 1px solid #acacac;
+margin: 0;
+float: left;
+}
+
+#contact_footer a {
+border-right: none;
+}
+
+#site-info a:link {
+}
+
+#site-info a:visit {
+}
+
+#site-info a:hover {
+background-color: #ffffff;
+color: #5b8726;
+}
+
+#site-info a:active {
+}
+
+/*Header Weather*/
+#header {
+margin: 0;
+padding: 0;
+}
+
+#weather {
+margin-right: 32px;
+padding: 0;
+}
+
+#weather li {
+list-style: none;
+float: right;
+height: 30px;
+}
+
+#weather a, #weather p {
+font-family: helvetica, calibri, sans-serif;
+font-weight: normal;
+padding-left: 20px;
+padding-right: 20px;
+color: #252525;
+border-right: 1px solid #acacac;
+margin: 0;
+text-decoration: none;
+font-size: 110%;
+}
+
+#current-conditions a {
+border-right: none;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/snow.png) right top no-repeat;
+}
+
+#weather a:link {
+}
+
+#weather a:visit {
+}
+
+#weather a:hover {
+color: #5b8726;
+}
+
+#weather a:active {
+}
+
+/*Masthead Social Media*/
+#social-media {
+position: relative;
+margin-left: 643px;
+padding-top: 95px;
+}
+
+#newsletter {
+width: 140%;
+margin: 10px;
+padding-right: 48px;
+padding-top: 15px;
+background: url(images/newsletter.png) right top no-repeat;
+}
+
+#fb {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/fb.png) right top no-repeat;
+}
+
+#twitter {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/twitter.png) right top no-repeat;
+}
+
+#trip {
+margin: 10px;
+padding-right: 32px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/tripadvisor.png) right top no-repeat;
+}
+
+#flickr {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/flickr.png) right top no-repeat;
+}
+
+#yelp {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/yelp.png) right top no-repeat;
+}
+
+/*Webrez Widget*/
+.lof-container {
+width: 650px;
+margin:0
+}
+
+form {
+position: relative;
+width: auto;
+height: 379px;
+margin-left: 680px;
+margin-top: 12px;
+background: url(images/webrez1.png) no-repeat;
+}
+
+form table tbody {
+position: absolute;
+display: block;
+border-collapse: separate;
+border-spacing: 0px;
+margin-top: 65px;
+float: right;
+}
+
+form tbody tr td {
+padding: 15px 10px;
+color: transparent;
+}
+
+tbody tr td input {
+margin-left: -40px;
+margin-right; 20px;
+width: 120%;
+font-family: helvetica, calibri, sans-serif;
+}
+
+tbody tr td select {
+font-family: helvetica, calibri, sans-serif;
+color: #000000;
+margin-left: -40px;
+}
+
+/*#ui-datepicker-div tbody, #ui-datepicker-div thead {
+background-color: #ebebeb;
+color: #000000;
+border: 1px solid black;
+width: 40em;
+}*/
