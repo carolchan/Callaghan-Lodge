@@ -10,7 +10,6 @@
 
 		<div id="primary" class="widget-area" role="complementary">
 			<ul class="xoxo">
-				<li><a href="http://www.clementlim.com">Clement Lim Webpage</a></li>
 
 <?php
 	/* When we call the dynamic_sidebar() function, it'll spit out
