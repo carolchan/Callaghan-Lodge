@@ -34,5 +34,5 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
+<?php include ('sidebar-book.php'); ?>
 <?php get_footer(); ?>
