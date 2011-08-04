@@ -19,7 +19,6 @@ Template Name: Book Now
  */
 
 get_header(); ?>
-
 		<div id="container">
 		<!--this is the Book Now template-->
 			<div id="content" role="main">
