@@ -26,6 +26,7 @@ display: none;
 float: right;
 }
 
+/*Sub Nav*/
 #primary {
 position: relative;
 display: block;
@@ -253,15 +254,14 @@ padding: 5px;
 }
 
 form {
-position: relative;
-width: 23%;
+postion: relative;
+width: 24%;
 height: 310px;
+margin-top: 310px;
 background: url(images/webrez_mini.png) no-repeat;
-margin: 10px 0 10px 0;
-clear: both;
 }
 
-form table {
+form table tbody {
 position: absolute;
 display: block;
 border-collapse: separate;
