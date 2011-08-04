@@ -27,8 +27,14 @@ float: right;
 }
 
 #primary {
+position: relative;
+display: block;
 border: solid 1px red;
 float: left;
+}
+
+.xoxo ul li {
+list-style: none;
 }
 
 /*Main Nav*/
