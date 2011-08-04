@@ -10,10 +10,10 @@
 
 		<div id="primary" class="widget-area" role="complementary">
 			<ul class="xoxo">
-			 <li id="nav_menu-5" class="widget-container widget_nav_menu">
+			 <li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
-				 <ul id="menu-rates-sub-nav" class="menu">
-				  <li id="rates"><a href="http://www.callaghancountry.com/wordpress/rates-packages/">Rates & Packages</a></li>
+				 <ul id="menu-sub-nav" class="menu">
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/rates-packages/">Rates & Packages</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/rates-packages/summer-rates/">Summer Rates</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/rates-packages/winter-rates/">Winter Rates</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/rates-packages/group-rates/">Group Rates</a></li>

@@ -10,10 +10,10 @@
 
 		<div id="primary" class="widget-area" role="complementary">
 			<ul class="xoxo">
-			 <li id="nav_menu-2" class="widget-container widget_nav_menu">
+			 <li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
-				 <ul id="menu-winter-sub-nav" class="menu">
-				  <li id="winter"><a href="http://www.callaghancountry.com/wordpress/winter/">Winter</a></li>
+				 <ul id="menu-sub-nav" class="menu">
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/winter/">Winter</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/winter/cross-country-skiing/">Cross Country Skiing</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/winter/backcountry-skiing/">Backcountry Skiing</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/winter/snowshoeing/">Snowshoeing</a></li>

@@ -10,10 +10,10 @@
 
 		<div id="primary" class="widget-area" role="complementary">
 			<ul class="xoxo">
-			 <li id="nav_menu-3" class="widget-container widget_nav_menu">
+			 <li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
-				 <ul id="menu-summer-sub-nav" class="menu">
-				  <li id="summer"><a href="http://www.callaghancountry.com/wordpress/summer/">Summer</a></li>
+				 <ul id="menu-sub-nav" class="menu">
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/summer/">Summer</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/summer/hiking/">Hiking</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/summer/natures-splendour/">Nature's Splendour</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/summer/horseback-riding/">Horseback Riding</a></li>

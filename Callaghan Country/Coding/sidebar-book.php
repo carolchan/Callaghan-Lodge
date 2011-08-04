@@ -10,10 +10,10 @@
 
 		<div id="primary" class="widget-area" role="complementary">
 		 <ul class="xoxo">
-			<li id="nav_menu-7" class="widget-container widget_nav_menu">
-			 <div class="subnav-menu">
-				<ul id="menu-book-sub-nav" class="menu">
-				<li id="booknow"><a href="http://www.callaghancountry.com/wordpress/book-now/">Book Now</a></li>
+			<li id="nav_menu" class="widget-container widget_nav_menu">
+				<div class="subnav-menu">
+				 <ul id="menu-sub-nav" class="menu">
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/book-now/">Book Now</a></li>
 				<li><a href="http://reservation.worldweb.com/hotel/973">Overnight Reservations</a></li>
 				<li><a href="http://reservation.worldweb.com/transaction-calendar.html?hotel_id=973">Check Availability</a></li>
 				<li><a href="http://www.callaghancountry.com/wordpress/book-now/lunch-reservation/">Lunch Reservations</a></li>
