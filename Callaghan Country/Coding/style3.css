@@ -275,3 +275,15 @@ padding: 10px 5px;
 color: #ffffff;
 }
 
+/*4 image photos*/
+#generic-page {
+list-style: none;
+margin-left: 0;
+}
+
+#generic-page li img {
+margin-right: 20px;
+margin-bottom: 30px;
+margin-top: 20px;
+float: left;
+}

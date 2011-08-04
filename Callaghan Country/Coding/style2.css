@@ -13,17 +13,23 @@ background:#ffffff;
 font-family: calibri, helvetica, sans-serif;
 }
 
+#main {
+margin: 0;
+padding: 0;
+}
+
 #container {
 float: right;
 margin: 0;
-width: 700px;
+width: 750px;
 padding-left: 0;
 }
 
 #content {
-float: right;
+float: left;
 width: 700px;
 margin: 0;
+margin-left: 15px;
 }
 
 #branding img {
@@ -264,7 +270,7 @@ form {
 postion: relative;
 width: 24%;
 height: 310px;
-margin-top: 310px;
+margin-top: 510px;
 background: url(images/webrez_mini.png) no-repeat;
 }
 
@@ -273,8 +279,9 @@ position: absolute;
 display: block;
 border-collapse: separate;
 border-spacing: 0px;
-margin-top: 63px;
+margin-top: 65px;
 margin-left: 10px;
+clear: both;
 }
 
 form tbody tr td {
@@ -283,3 +290,14 @@ color: #ffffff;
 }
 
 /*4 image photos*/
+#generic-page {
+list-style: none;
+margin-left: 0;
+}
+
+#generic-page li img {
+margin-right: 20px;
+margin-bottom: 30px;
+margin-top: 20px;
+float: left;
+}
