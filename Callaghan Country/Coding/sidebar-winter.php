@@ -13,7 +13,7 @@
 			 <li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
 				 <ul id="menu-sub-nav" class="menu">
-				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/winter/">Winter</a></li>
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/winter/">WINTER</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/winter/cross-country-skiing/">Cross Country Skiing</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/winter/backcountry-skiing/">Backcountry Skiing</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/winter/snowshoeing/">Snowshoeing</a></li>

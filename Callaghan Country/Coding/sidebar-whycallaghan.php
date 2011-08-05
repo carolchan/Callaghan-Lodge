@@ -13,7 +13,7 @@
 			  <li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
 				 <ul id="menu-sub-nav" class="menu">
-				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/why-callaghan/">Why Callaghan?</a></li>
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/why-callaghan/">WHY CALLAGHAN?</a></li>
 				   <li><a href="http://www.callaghancountry.com/wordpress/why-callaghan/proximity-convenience/">Proximity & Convenience</a></li>
 				   <li><a href="http://www.callaghancountry.com/wordpress/why-callaghan/legendary-skiing/">Legendary Skiing</a></li>
 				   <li><a href="http://www.callaghancountry.com/wordpress/why-callaghan/fine-dining-in-the-alpine/">Fine Dining in the Alpine</a></li>

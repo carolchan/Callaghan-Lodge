@@ -13,7 +13,7 @@
 			<li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
 				 <ul id="menu-sub-nav" class="menu">
-				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/community/">Community</a></li>
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/community/">COMMUNITY</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/community/social-media">Social Media</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/community/get-connected">Get Connected</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/community/getting-here">Getting Here</a></li>

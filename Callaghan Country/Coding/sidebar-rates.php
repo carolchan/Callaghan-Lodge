@@ -13,7 +13,7 @@
 			 <li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
 				 <ul id="menu-sub-nav" class="menu">
-				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/rates-packages/">Rates & Packages</a></li>
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/rates-packages/">RATES & PACKAGES</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/rates-packages/summer-rates/">Summer Rates</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/rates-packages/winter-rates/">Winter Rates</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/rates-packages/group-rates/">Group Rates</a></li>

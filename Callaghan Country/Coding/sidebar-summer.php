@@ -13,7 +13,7 @@
 			 <li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
 				 <ul id="menu-sub-nav" class="menu">
-				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/summer/">Summer</a></li>
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/summer/">SUMMER</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/summer/hiking/">Hiking</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/summer/natures-splendour/">Nature's Splendour</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/summer/horseback-riding/">Horseback Riding</a></li>

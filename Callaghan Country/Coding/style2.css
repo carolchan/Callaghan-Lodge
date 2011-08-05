@@ -70,6 +70,13 @@ color: #000000;
 
 #nav_menu {
 border: 1px solid red;
+width: 220px;
+}
+
+#click-title {
+padding-top: 4px;
+padding-bottom: 2px;
+font-size: 1.2em;
 }
 
 .xoxo ul li a:link {

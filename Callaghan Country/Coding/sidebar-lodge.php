@@ -13,7 +13,7 @@
 			 <li id="nav_menu" class="widget-container widget_nav_menu">
 				<div class="subnav-menu">
 				 <ul id="menu-sub-nav" class="menu">
-				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/lodge/">Lodge</a></li>
+				  <li id="click-title"><a href="http://www.callaghancountry.com/wordpress/lodge/">LODGE</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/lodge/suites-rooms/">Suites & Rooms</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/lodge/dining-at-callaghan/">Dining at Callaghan</a></li>
 				  <li><a href="http://www.callaghancountry.com/wordpress/lodge/testimonials-ambience/">Testimonials & Ambience</a></li>
