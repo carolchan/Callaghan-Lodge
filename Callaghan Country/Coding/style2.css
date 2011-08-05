@@ -333,7 +333,7 @@ form {
 postion: relative;
 width: 24%;
 height: 310px;
-margin-top: 320px;
+margin-top: 0;
 background: url(images/webrez_mini.png) no-repeat;
 clear: both;
 }

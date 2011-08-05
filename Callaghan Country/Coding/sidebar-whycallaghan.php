@@ -25,8 +25,6 @@
 			</ul>
 		</div><!-- #primary .widget-area -->
 
-
-
 <?php
 	// A second sidebar for widgets, just because.
 	if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
