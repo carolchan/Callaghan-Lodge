@@ -19,7 +19,14 @@ Template Name: Current Conditions
  */
 
 get_header(); ?>
-
+<?php 
+		if (is_page( 'current-conditions' ))
+				echo '<ul id="generic-page"><li class="images-4photo"><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WhyCallaghan1.png" /></li>
+				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WhyCallaghan2.png" /></li>
+				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WhyCallaghan3.png" /></li>
+				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WhyCallaghan4.png" /></li></ul>';
+?>		
+		
 		<div id="container">
 		<!--this is the Current Conditions template with no sidebar-->
 			<div id="content" role="main">

@@ -36,16 +36,57 @@ margin-left: 15px;
 display: none;
 }
 
+#post-215 {
+width: 100%;
+margin: 0;
+left: -100px;
+}
+
 /*Sub Nav*/
 #primary {
 position: relative;
 display: block;
-border: solid 1px red;
+border: solid 1px silver;
+width: 220px;
+margin: 0;
+padding: 0;
 float: left;
 }
 
-.xoxo ul li {
+.xoxo li {
+margin: 0;
+padding: 0;
 list-style: none;
+}
+
+.xoxo ul li {
+position: relative;
+padding: 8px;
+}
+
+.xoxo ul li a {
+color: #000000;
+}
+
+#nav_menu {
+border: 1px solid red;
+}
+
+.xoxo ul li a:link {
+font-family: helvetica, calibri, sans-serif;
+font-size: 1.0em;
+}
+
+.xoxo ul li a:visit {
+color: #000000;
+}
+
+.xoxo ul li a:hover {
+color: #5b8726;
+text-decoration: none;
+}
+
+.xoxo ul li a:active {
 }
 
 /*Main Nav*/
@@ -270,7 +311,7 @@ form {
 postion: relative;
 width: 24%;
 height: 310px;
-margin-top: 510px;
+margin-top: 610px;
 background: url(images/webrez_mini.png) no-repeat;
 }
 
