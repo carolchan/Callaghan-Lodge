@@ -51,7 +51,7 @@ padding: 0;
 #primary {
 position: relative;
 display: block;
-border: solid 1px silver;
+border-top: solid 1px silver;
 width: 219px;
 margin: 0;
 padding: 0;
@@ -62,6 +62,8 @@ background: url(images/subnav_bar.png) no-repeat left top;
 .xoxo {
 margin: 0;
 padding: 0;
+border-left: solid 1px silver;
+border-right: solid 1px silver;
 }
 
 .xoxo ul li {
@@ -331,8 +333,9 @@ form {
 postion: relative;
 width: 24%;
 height: 310px;
-margin-top: 670px;
+margin-top: 320px;
 background: url(images/webrez_mini.png) no-repeat;
+clear: both;
 }
 
 form table tbody {
@@ -342,7 +345,6 @@ border-collapse: separate;
 border-spacing: 0px;
 margin-top: 65px;
 margin-left: 10px;
-clear: both;
 }
 
 form tbody tr td {
