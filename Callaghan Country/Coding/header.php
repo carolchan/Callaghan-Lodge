@@ -42,8 +42,8 @@
 <?php global $post; ?>
 <?php if( is_home() || is_front_page() ) :?>
 <link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style.css'; echo $str1; ?>" />
-<?php elseif ( is_page('Why Callaghan?') || '2' == $post->post_parent) :?>
-<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style2.css'; echo $str1; ?>" />
+<?php elseif ( is_page('Current Ski Conditions at "Ski Callaghan"... a Nordic Partnership') || '215' == $post->post_parent) :?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style3.css'; echo $str1; ?>" />
 <?php elseif ( is_page('Winter') || '12' == $post->post_parent ) :?>
 <link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style2.css'; echo $str1; ?>" />
 <?php elseif ( is_page('Community') || '39' == $post->post_parent) :?>

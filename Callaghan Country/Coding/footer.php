@@ -34,7 +34,7 @@
 			</div><!-- #site-info -->
 			
 			<div id="site-generator">
-			<p>Copyright &copy; 2011 Callaghan Country Wilderness Adventures</p>
+			<p>Copyright &copy; 2011 Callaghan Country Designed and built by Carol Chan</p>
 
 			</div><!-- #site-generator -->
 			

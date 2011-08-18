@@ -46,6 +46,10 @@ display: none;
 }
 
 /*main nav*/
+#access {
+width: 100%
+}
+
 #access, .menu-header, div.menu {
 background-color: #ffffff;
 font-family: helvetica, calibri, sans-serif;
@@ -55,7 +59,7 @@ margin: 0;
 #access a, #menu-item {
 background-color: #ffffff;
 color: #252525;
-font-size: 110%;
+font-size: 1.1em;
 border-right: 1px solid #acacac;
 padding-left: 16px;
 padding-right: 16px;

@@ -19,7 +19,14 @@ Template Name: Community
  */
 
 get_header(); ?>
-
+		<div class="breadcrumbs">
+		<?php
+		if(function_exists('bcn_display'))
+		{
+			bcn_display();
+		}
+		?>
+		</div>
 		<div id="container">
 		<!--this is the Community template-->
 			<div id="content" role="main">
@@ -35,5 +42,5 @@ get_header(); ?>
 		</div><!-- #container -->
 
 <?php include ('sidebar-community.php'); ?>
-<script>EmbedBookingRequest_ReturnHTML();</script>
+<div class="widget"><script>EmbedBookingRequest_ReturnHTML();</script></div>
 <?php get_footer(); ?>

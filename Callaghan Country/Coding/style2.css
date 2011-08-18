@@ -52,9 +52,11 @@ padding: 0;
 position: relative;
 display: block;
 border-top: solid 1px silver;
-width: 219px;
+width: 220px;
 margin: 0;
+margin-bottom: 20px;
 padding: 0;
+padding-bottom: 10px;
 float: left;
 background: url(images/subnav_bar.png) no-repeat left top;
 }
@@ -76,7 +78,6 @@ left: -18px;
 
 .xoxo ul li a {
 display: block;
-padding: 8;
 padding: 8px;
 padding-left: 15px;
 padding-right: 17px;
@@ -86,7 +87,7 @@ color: #000000;
 #click-title {
 margin-top: 10px;
 margin-bottom: 10px;
-font-size: 1.2em;
+font-size: 1.4em;
 border-bottom: none;
 }
 
@@ -112,6 +113,10 @@ text-decoration: none;
 }
 
 /*Main Nav*/
+#access {
+width: 100%
+}
+
 #access, .menu-header, div.menu {
 background-color: #ffffff;
 font-family: helvetica, calibri, sans-serif;
@@ -121,7 +126,7 @@ margin: 0;
 #access a, #menu-item {
 background-color: #ffffff;
 color: #252525;
-font-size: 110%;
+font-size: 1.1em;
 border-right: 1px solid #acacac;
 padding-left: 16px;
 padding-right: 16px;
@@ -330,21 +335,17 @@ padding: 5px;
 }
 
 form {
-postion: relative;
-width: 24%;
+width: 23%;
 height: 310px;
-margin-top: 0;
-background: url(images/webrez_mini.png) no-repeat;
-clear: both;
+margin-top: 700px;
+padding-top: 60px;
+padding-left: 10px;
+background: url(images/webrez_mini.png) no-repeat scroll left top;
 }
 
 form table tbody {
-position: absolute;
-display: block;
 border-collapse: separate;
 border-spacing: 0px;
-margin-top: 65px;
-margin-left: 10px;
 }
 
 form tbody tr td {
@@ -363,4 +364,34 @@ margin-right: 20px;
 margin-bottom: 30px;
 margin-top: 20px;
 float: left;
+}
+
+/*Breadcrumb Trail*/
+.breadcrumbs {
+width: 600px;
+font-size: 1.2em;
+position: relative;
+margin-bottom: 20px;
+float: left;
+}
+
+.breadcrumbs a {
+color: #777874;
+padding-right: 5px;
+}
+
+.breadcrumbs a:link {
+text-decoration: none;
+}
+
+.breadcrumbs a:visit {
+}
+
+.breadcrumbs a:hover {
+color: #5b8726;
+text-decoration: underline;
+}
+
+.breadcrumbs a:active {
+border: 1px solid red;
 }

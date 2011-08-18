@@ -21,7 +21,7 @@
 				   <li><a href="http://www.callaghancountry.com/wordpress/why-callaghan/employment/">Employment</a></li>
 				   <li><a href="http://www.callaghancountry.com/wordpress/why-callaghan/volunteer/">Volunteer</a></li>
 				 </ul>
-				</div>
+				</div><!-- .subnav-menu -->
 			</ul>
 		</div><!-- #primary .widget-area -->
 

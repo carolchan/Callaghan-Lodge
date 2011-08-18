@@ -41,6 +41,14 @@ get_header(); ?>
 				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/ambience3.png" width="220" height="260" /></li>
 				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/ambience4.png" width="220" height="260" /></li></ul>';
 		?>	
+		<div class="breadcrumbs">
+		<?php
+		if(function_exists('bcn_display'))
+		{
+			bcn_display();
+		}
+		?>
+		</div>
 		<div id="container">
 		<!--this is the Lodge template-->
 			<div id="content" role="main">
