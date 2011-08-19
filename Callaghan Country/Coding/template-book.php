@@ -49,6 +49,13 @@ get_header(); ?>
 		}
 		?>
 		</div>
+		<div id="ShareThis">
+		<span class='st_facebook_hcount'></span>
+		<span class='st_twitter_hcount'></span>
+		<span class='st_email_hcount'></span>
+		<span class='st_linkedin_hcount'></span>
+		<span class='st_plusone_hcount'></span>
+		</div>
 		<div id="container">
 		<!--this is the Book Now template-->
 			<div id="content" role="main">

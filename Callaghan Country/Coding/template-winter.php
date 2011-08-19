@@ -47,7 +47,7 @@ get_header(); ?>
 				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/Something4.png" width="220" height="260" /></li></ul>';
 		elseif (is_page( 'winter-packing-list' ))
 				echo '<ul id="generic-page"><li class="images-4photo"><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WPacking1.png" width="220" height="260" /></li>
-				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WPacking2.png.png" width="220" height="260" /></li>
+				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WPacking2.png" width="220" height="260" /></li>
 				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WPacking3.png" width="220" height="260" /></li>
 				<li><img src="http://www.callaghancountry.com/wordpress/wp-content/uploads/2011/08/WPacking4.png" width="220" height="260" /></li></ul>';
 		elseif (is_page( 'rest-relaxation-with-friends' ))
@@ -64,7 +64,9 @@ get_header(); ?>
 		}
 		?>
 		</div>
-
+		<div id="ShareThis">
+		<span class='st_facebook_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_twitter_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_email_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_linkedin_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_plusone_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span>
+		</div>
 		<div id="container">
 		<!--this is the Winter template-->
 			<div id="content" role="main">
@@ -80,5 +82,5 @@ get_header(); ?>
 		</div><!-- #container -->
 
 <?php include ('sidebar-winter.php'); ?>
-<script>EmbedBookingRequest_ReturnHTML();</script>
+<div id="webrez"><script>EmbedBookingRequest_ReturnHTML();</script></div>
 <?php get_footer(); ?>

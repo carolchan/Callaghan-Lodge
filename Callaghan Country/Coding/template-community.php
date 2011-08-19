@@ -27,6 +27,7 @@ get_header(); ?>
 		}
 		?>
 		</div>
+		
 		<div id="container">
 		<!--this is the Community template-->
 			<div id="content" role="main">
@@ -42,5 +43,5 @@ get_header(); ?>
 		</div><!-- #container -->
 
 <?php include ('sidebar-community.php'); ?>
-<div class="widget"><script>EmbedBookingRequest_ReturnHTML();</script></div>
+<div id="webrez"><script>EmbedBookingRequest_ReturnHTML();</script></div>
 <?php get_footer(); ?>

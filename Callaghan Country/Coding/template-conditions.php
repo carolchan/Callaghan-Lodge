@@ -28,7 +28,6 @@ get_header(); ?>
 		}
 		?>
 		</div>
-		
 		<div id="container">
 		<!--this is the Current Conditions template with no sidebar-->
 			<div id="content" role="main">

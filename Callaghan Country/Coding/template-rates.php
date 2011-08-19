@@ -59,6 +59,9 @@ get_header(); ?>
 		}
 		?>
 		</div>
+		<div id="ShareThis">
+		<span class='st_facebook_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_twitter_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_email_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_linkedin_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span><span class='st_plusone_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>' displayText='share'></span>
+		</div>
 		<div id="container">
 		<!--this is the Rates & Packages template-->
 			<div id="content" role="main">
@@ -74,5 +77,5 @@ get_header(); ?>
 		</div><!-- #container -->
 
 <?php include ('sidebar-rates.php'); ?>
-<script>EmbedBookingRequest_ReturnHTML();</script>
+<div id="webrez"><script>EmbedBookingRequest_ReturnHTML();</script></div>
 <?php get_footer(); ?>

@@ -51,8 +51,6 @@
 <?php else:?>
 <link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style2.css'; echo $str1; ?>" /><?php endif;?>
 
-
-
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	/* We add some JavaScript to pages with the comment form

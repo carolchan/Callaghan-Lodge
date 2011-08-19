@@ -298,9 +298,7 @@ color: #000000;
 margin-left: -40px;
 }
 
-/*#ui-datepicker-div tbody, #ui-datepicker-div thead {
-background-color: #ebebeb;
-color: #000000;
-border: 1px solid black;
-width: 40em;
-}*/
+/*ShareThis*/
+.st_facebook_hcount, .st_twitter_hcount, .st_email_hcount, .st_plusone_hcount, .st_linkedin_hcount {
+display: none;
+}

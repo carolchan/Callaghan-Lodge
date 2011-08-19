@@ -323,13 +323,14 @@ font-size: 1.2em;
 padding: 5px;
 }
 
-form {
+#main form {
 position: inherit;
 width: 23%;
 height: 310px;
+margin-top: 210px;
 padding-top: 60px;
 padding-left: 10px;
-background: url(images/webrez_mini.png) no-repeat scroll left top;
+background: url(images/webrez_mini.png) no-repeat;
 }
 
 form table tbody {
@@ -363,7 +364,7 @@ float: left;
 
 /*Breadcrumb Trail*/
 .breadcrumbs {
-width: 600px;
+width: 500px;
 font-size: 1.2em;
 position: relative;
 margin-bottom: 20px;
@@ -373,6 +374,7 @@ float: left;
 .breadcrumbs a {
 color: #777874;
 padding-right: 5px;
+padding-left: 5px;
 }
 
 .breadcrumbs a:link {
@@ -388,5 +390,4 @@ text-decoration: underline;
 }
 
 .breadcrumbs a:active {
-border: 1px solid red;
 }
