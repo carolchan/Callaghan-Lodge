@@ -1,0 +1,486 @@
+/* 
+Theme Name: Twenty Ten Child 
+Description: Child Theme for the Twenty Ten theme 
+Template: twentyten 
+Author: Carol Chan 
+Version: 0.1.0 
+*/
+
+@import url(../twentyten/style.css);
+
+body {
+background:#ffffff;
+font-family: calibri, helvetica, sans-serif;
+}
+
+#main {
+margin: 0;
+padding: 0;
+}
+
+#container {
+float: right;
+margin: 0;
+width: 750px;
+padding-left: 0;
+}
+
+#content {
+float: left;
+width: 700px;
+margin: 0;
+margin-left: 15px;
+}
+
+#branding img {
+display: none;
+}
+
+#post-215 {
+width: 100%;
+margin: 0;
+left: -100px;
+}
+
+/*Sub Nav*/
+#menu-sub-nav, #nav-menu {
+margin: 0;
+padding: 0;
+}
+
+#primary {
+position: relative;
+display: block;
+border-top: solid 1px silver;
+width: 220px;
+margin: 0;
+margin-bottom: 20px;
+padding: 0;
+padding-bottom: 10px;
+float: left;
+background: url(images/subnav_bar.png) no-repeat left top;
+}
+
+.xoxo {
+margin: 0;
+padding: 0;
+border-left: solid 1px silver;
+border-right: solid 1px silver;
+}
+
+.xoxo ul li {
+position: relative;
+width: 220px;
+list-style: none;
+border-bottom: 1px solid silver;
+left: -18px;
+}
+
+.xoxo ul li a {
+display: block;
+padding: 8px;
+padding-left: 15px;
+padding-right: 17px;
+color: #000000;
+}
+
+#click-title {
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 1.4em;
+border-bottom: none;
+}
+
+#click-title a:hover {
+color: #000000;
+}
+
+.xoxo ul li a:link {
+font-family: helvetica, calibri, sans-serif;
+font-size: 1.0em;
+}
+
+.xoxo ul li a:visit {
+color: #000000;
+}
+
+.xoxo ul li a:hover {
+color: #5b8726;
+text-decoration: none;
+}
+
+.xoxo ul li a:active {
+}
+
+/*Main Nav*/
+#access {
+width: 100%
+}
+
+#access, .menu-header, div.menu {
+background-color: #ffffff;
+font-family: helvetica, calibri, sans-serif;
+margin: 0;
+}
+
+#access a, #menu-item {
+background-color: #ffffff;
+color: #252525;
+font-size: 1.1em;
+border-right: 1px solid #acacac;
+padding-left: 16px;
+padding-right: 16px;
+margin: 0;
+}
+
+#access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
+background-color: #ffffff;
+color: #252525;
+}
+
+#menu-item-87 a {
+border-right: none;
+}
+
+#access ul li a:link {
+}
+
+#access ul li a:visit {
+}
+
+#access ul li a:hover {
+background-color: #ffffff;
+color: #5b8726;
+}
+
+#access ul li a:active {
+}
+
+/*Logo*/
+#site-title {
+color: white;
+font-size: 10%;
+width: 147px;
+line-height: 0;
+height: 118px;
+background: url(images/logo.png) no-repeat;
+}
+
+#site-title a {
+position: absolute;
+width: 147px;
+height: 118px;
+color: #ffffff;
+}
+
+#site-description {
+color: white;
+}
+
+/*Footer*/
+
+#colophon {
+border-top: 1px solid #acacac;
+margin: 0;
+}
+
+#site-info ul li {
+list-style: none;
+float: left;
+}
+
+#site-info a {
+font-family: helvetica, calibri, sans-serif;
+font-size: 80%;
+font-weight: normal;
+padding-left: 7px;
+padding-right: 7px;
+color: #252525;
+border-right: 1px solid #acacac;
+margin: 0;
+}
+
+#contact_footer a {
+border-right: none;
+}
+
+#site-info a:link {
+}
+
+#site-info a:visit {
+}
+
+#site-info a:hover {
+background-color: #ffffff;
+color: #5b8726;
+}
+
+#site-info a:active {
+}
+
+/*Header Weather*/
+#header {
+margin: 0;
+padding: 0;
+padding-bottom: 30px;
+margin-bottom: 10px;
+width: 700px;
+float: right;
+}
+
+#weather {
+margin-right: 32px;
+padding: 0;
+}
+
+#weather li {
+list-style: none;
+float: right;
+height: 30px;
+}
+
+#weather a, #weather p {
+font-family: helvetica, calibri, sans-serif;
+font-weight: normal;
+padding-left: 20px;
+padding-right: 20px;
+color: #252525;
+border-right: 1px solid #acacac;
+margin: 0;
+text-decoration: none;
+font-size: 110%;
+}
+
+#current-conditions a {
+border-right: none;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/snow.png) right top no-repeat;
+}
+
+#weather a:link {
+}
+
+#weather a:visit {
+}
+
+#weather a:hover {
+color: #5b8726;
+}
+
+#weather a:active {
+}
+
+/*Masthead Social Media*/
+#social-media {
+position: relative;
+margin-left: 643px;
+padding-top: 95px;
+}
+
+#newsletter {
+width: 140%;
+margin: 10px;
+padding-right: 48px;
+padding-top: 15px;
+background: url(images/newsletter.png) right top no-repeat;
+}
+
+#fb {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/fb.png) right top no-repeat;
+}
+
+#twitter {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/twitter.png) right top no-repeat;
+}
+
+#trip {
+margin: 10px;
+padding-right: 32px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/tripadvisor.png) right top no-repeat;
+}
+
+#flickr {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/flickr.png) right top no-repeat;
+}
+
+#yelp {
+margin: 10px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: url(images/yelp.png) right top no-repeat;
+}
+
+/*Webrez Widget*/
+element.style {
+font-family: calibri;
+font-size: 1.2em;
+padding: 5px;
+}
+
+#webrez form {
+width: 210px;
+height: 249px;
+margin-top: 595px;
+padding-top: 60px;
+padding-left: 10px;
+background: url(images/webrez_mini.png) no-repeat;
+}
+
+form table tbody {
+border-collapse: separate;
+border-spacing: 0px;
+}
+
+form tbody tr td {
+padding: 10px 5px;
+color: #ffffff;
+}
+
+/*4 image photos*/
+#generic-page {
+list-style: none;
+margin-left: 0;
+}
+
+#generic-page li img {
+margin-right: 20px;
+margin-bottom: 30px;
+margin-top: 20px;
+float: left;
+}
+
+/*Breadcrumb Trail*/
+.breadcrumbs {
+width: 500px;
+font-size: 1.2em;
+position: relative;
+margin-bottom: 20px;
+float: left;
+}
+
+.breadcrumbs a {
+color: #777874;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+.breadcrumbs a:link {
+text-decoration: none;
+}
+
+.breadcrumbs a:visit {
+}
+
+.breadcrumbs a:hover {
+color: #5b8726;
+text-decoration: underline;
+}
+
+.breadcrumbs a:active {
+}
+
+/*ShareThis*/
+#ShareThis {
+position: relative;
+float: right;
+margin-right: 20px;
+height: 25px;
+}
+
+#ShareThis span {
+vertical-align: top;
+}
+
+/*Lunch Reservation*/
+#wpcf7-f1-p193-o1 {
+background: none;
+}
+
+.wpcf7 form.wpcf7-form p span input {
+font-family: calibri, helvetica, sans-serif;
+}
+
+#content div.wpcf7 .watermark {
+color: #BAB1B1;
+}
+
+#content div.wpcf7 form p {
+margin: 0;
+padding: 0;
+}
+
+#summer-menu {
+display: block;
+width: 300px;
+}
+
+#winter-menu {
+position: relative;
+display: block;
+margin-top: -333px;
+margin-right: 80px;
+float: right;
+width: 300px;
+}
+
+#comments {
+clear: both;
+}
+
+/*Summer Rates Tables*/
+#summer-table, #summer-body, #ColorHeader {
+width: 650px;
+}
+
+#summer-body tr td {
+margin: 0;
+padding: 0;
+padding-left: 15px;
+border: none;
+}
+
+#summer-body tr td a {
+text-decoration: none;
+}
+
+tr#ColorHeader th {
+height: 20px;
+color: #ffffff;
+padding: 0;
+padding-left: 15px;
+padding-bottom: 5px;
+margin: 0;
+font-size: 0.8em;
+background-color: #466111;
+}
+
+#peoplenumber {
+background-color: #B3D472;
+height: 20px;
+}
+
+#summer-body tr.shadedH {
+background-color: #F2FCDE;
+}
+
+caption {
+text-align: left;
+font-weight: bold;
+}
