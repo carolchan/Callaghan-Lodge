@@ -42,12 +42,26 @@
 <?php global $post; ?>
 <?php if( is_home() || is_front_page() ) :?>
 <link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style.css'; echo $str1; ?>" />
-<?php elseif ( is_page('Current Ski Conditions at "Ski Callaghan"... a Nordic Partnership') || '215' == $post->post_parent) :?>
-<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style3.css'; echo $str1; ?>" />
-<?php elseif ( is_page('Winter') || '12' == $post->post_parent ) :?>
+<?php elseif ( is_page('Why Callaghan?') || '2' == $post->post_parent) :?>
 <link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style2.css'; echo $str1; ?>" />
+<?php elseif ( is_page('Current Ski Conditions at "Ski Callaghan"... a Nordic Partnership') || '215' == $post->post_parent) :?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style8.css'; echo $str1; ?>" />
+<?php elseif ( is_page('Winter') || '12' == $post->post_parent) :?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style4.css'; echo $str1; ?>" />
+<?php elseif ( is_page('Summer') || '32' == $post->post_parent) :?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style5.css'; echo $str1; ?>" />
+<?php elseif ( is_page('Lodge') || '34' == $post->post_parent) :?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style6.css'; echo $str1; ?>" />
+
+<?php elseif ( is_page('Rates & Packages') || '37' == $post->post_parent ) :?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style7.css'; echo $str1; ?>" />
+
 <?php elseif ( is_page('Community') || '39' == $post->post_parent) :?>
 <link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style3.css'; echo $str1; ?>" />
+<?php elseif ( is_page('Book Now') || '41' == $post->post_parent ) :?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style9.css'; echo $str1; ?>" />
+<?php elseif ( is_page('Contact') || '43' == $post->post_parent ) :?>
+<link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style10.css'; echo $str1; ?>" />
 <?php else:?>
 <link rel="stylesheet" type="text/css" media="all" href="<?php $str1= bloginfo( 'stylesheet_directory' ); $str1 .= '/style2.css'; echo $str1; ?>" /><?php endif;?>
 

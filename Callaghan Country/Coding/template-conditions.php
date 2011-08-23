@@ -42,5 +42,5 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- #container -->
 
-
+<div id="webrez"><script>EmbedBookingRequest_ReturnHTML();</script></div>
 <?php get_footer(); ?>

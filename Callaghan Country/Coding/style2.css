@@ -337,7 +337,7 @@ padding: 5px;
 #webrez form {
 width: 210px;
 height: 249px;
-margin-top: 700px;
+margin-top: 630px;
 padding-top: 60px;
 padding-left: 10px;
 background: url(images/webrez_mini.png) no-repeat;
@@ -419,4 +419,61 @@ font-family: calibri, helvetica, sans-serif;
 
 #content div.wpcf7 .watermark {
 color: #BAB1B1;
+}
+
+#content div.wpcf7 form p {
+margin: 0;
+padding: 0;
+}
+
+#summer-menu {
+display: block;
+width: 300px;
+}
+
+#winter-menu {
+position: relative;
+display: block;
+margin-top: -333px;
+margin-right: 80px;
+float: right;
+width: 300px;
+}
+
+#comments {
+clear: both;
+}
+
+/*Summer Rates Tables*/
+#summer-table, #summer-body, #ColorHeader {
+width: 650px;
+padding-left: 10px;
+}
+
+#summer-body tr td {
+margin: 0;
+padding: 0;
+border: none;
+}
+
+#summer-body tr td a {
+text-decoration: none;
+}
+
+tr#ColorHeader th {
+height: 40px;
+color: #000000;
+padding: 0;
+margin: 0;
+font-size: 0.8em;
+background-color: #888888;
+}
+
+#peoplenumber {
+background-color: #C2BEBF;
+height: 20px;
+}
+
+#summer-body tr.shadedH {
+background-color: #E7E7E7;
 }
