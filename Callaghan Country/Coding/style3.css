@@ -9,7 +9,7 @@ Version: 0.1.0
 @import url(../twentyten/style.css);
 
 body {
-background:#F5F4E4;
+background:#ffffff;
 font-family: calibri, helvetica, sans-serif;
 }
 
@@ -390,4 +390,25 @@ text-decoration: underline;
 }
 
 .breadcrumbs a:active {
+}
+
+/*community section*/
+h2 {
+font-family: calibri, helvetica, sans-serif;
+font-size: 1.3em;
+}
+
+#content ul {
+list-style: none;
+margin: 0;
+margin-bottom: 30px;
+width: 400px;
+}
+
+#directions a, #rideshare a {
+text-decoration: none;
+}
+
+#mail-newsletter ul li a {
+text-decoration: none;
 }

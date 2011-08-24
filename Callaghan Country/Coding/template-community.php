@@ -38,7 +38,15 @@ get_header(); ?>
 			 */
 			get_template_part( 'loop', 'page' );
 			?>
-
+		<?php 
+		if (is_page( 'Get Connected' ))
+			echo '<h2 id="title-skwez">Skwez rideshare to Callaghan Country</h2>
+			<iframe
+			style="width:300px;height:400px;outline:0;margin:0;border:1px solid LightGrey"
+			frameborder="0"
+			 src="http://skwez.com/p.html?p=NSmjzy6wSsKEXU0DkWqczQ&name=Callaghan&nbsp;Valley">
+			</iframe>';
+		?>
 			</div><!-- #content -->
 		</div><!-- #container -->
 
