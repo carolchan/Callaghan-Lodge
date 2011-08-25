@@ -395,7 +395,8 @@ text-decoration: underline;
 /*community section*/
 h2 {
 font-family: calibri, helvetica, sans-serif;
-font-size: 1.3em;
+font-size: 1.2em;
+width: 350px;
 }
 
 #content ul {
@@ -411,4 +412,51 @@ text-decoration: none;
 
 #mail-newsletter ul li a {
 text-decoration: none;
+}
+
+/*Blogger Widget*/
+#content li {
+list-style: none;
+}
+
+#blogger-posts {
+width: 350px;
+float: right;
+margin: 0;
+margin-top: -50px;
+}
+
+#rss-5 {
+background: url(images/blogger.png) repeat-x;
+}
+
+#rss-5 h3 a {
+margin-top: 15px;
+margin-bottom: 0;
+color: #ffffff;
+text-decoration: none;
+}
+
+#rss-5 ul {
+margin-left: 10px;
+width: 300px;
+}
+
+#rss-5 ul li a {
+margin-top: 15px;
+margin-left: 10px;
+text-decoration: none;
+color: #5b8726;
+}
+
+span.rss-date {
+margin-left: 10px;
+font-style: italic;
+font-weight: bold;
+font-size: 0.8em;
+}
+
+.rssSummary {
+margin: 10px;
+margin-bottom: 20px;
 }

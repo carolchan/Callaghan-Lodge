@@ -24,7 +24,7 @@
 
 
 
-<?php
+<!--<?php
 	// A second sidebar for widgets, just because.
 	if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
 
@@ -32,6 +32,6 @@
 			<ul class="xoxo">
 				<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
 			</ul>
-		</div><!-- #secondary .widget-area -->
+		</div>
 
-<?php endif; ?>
+<?php endif; ?>-->
